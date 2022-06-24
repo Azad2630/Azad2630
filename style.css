@@ -1,0 +1,87 @@
+/* Variabler */
+:root{
+    --main-color: #c0c0c0;
+}
+
+/* base regler */
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+/* header */
+
+header{
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+.line{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: block;
+    padding: 50px;
+}
+.social{
+    display: flex;
+
+    max-width: 50%;
+
+    flex-direction: row;
+}
+
+
+a{
+    padding: 1em;
+}
+
+
+main{
+    padding: 10em;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+main> section> h2{
+    display: flex;
+    justify-content: center;
+}
+main> section> p{
+    text-align: center;
+    box-sizing: content-box;
+    width: 50em;
+}
+
+
+.h{
+    max-width: 20em;
+}
+.v{
+    position: relative;
+    left: 19em;
+    top: -12em;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    
+}
